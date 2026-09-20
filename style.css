@@ -44,7 +44,22 @@
     max-height: 500px;
     object-fit: contain;
 }
+.output-video-wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
 
+.output-video {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    object-fit: contain;
+    background: #000;
+}
 
 html {
     scroll-behavior: smooth;
