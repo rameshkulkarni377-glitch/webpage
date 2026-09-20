@@ -29,6 +29,21 @@
     --shadow:
         0 20px 60px rgba(17,17,17,.08);
 }
+.output-video-wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.output-video {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+}
 
 
 html {
